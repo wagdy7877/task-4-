@@ -1,0 +1,22 @@
+body{
+  background: #24353f;
+}
+.shadow{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+h1,button{
+  color: #17a2b8 !important;
+}
+input,input:focus{
+  background: #24353f !important;
+}
+input::placeholder{
+  color:rgb(182, 182, 182) !important;
+}
+input:focus ,.form-control{
+  color: white !important;
+}
+button:focus{
+  background: #24353f !important; 
+  color: #17a2b8 !important;
+}

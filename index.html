@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>log in</title>
+  </head>
+  <body>
+   
+
+    <div class="container text-center pt-5">
+      <div class="box m-auto mt-5 py-5 shadow border border-black w-75">
+        <div class="row">
+          <div class="col-md-9 m-auto">
+                <h1 class="mb-4">Smart Login System</h1>
+                <input type="text" placeholder="Enter Your e-mail" class="form-control p-2" id="logemail">
+                <input type="password" placeholder="Enter Your Password" class="form-control  my-3 p-2"  id="logpass">
+                <span id="exist"></span>
+                <button class="btn btn-outline-info form-control p-2 my-3" onclick="logIn()" >LogIn</button>
+                <p class="text-light">Don’t have an account? <a href="area/signup.html" class="text-decoration-none text-light">SignUp</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+              
+
+    <!-- bootstrap  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
